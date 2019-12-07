@@ -6,8 +6,6 @@ import lombok.Data;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class ResponseDTO {
-    private String origin;
-    private String url;
+  private String origin;
+  private String url;
 }
-
-
